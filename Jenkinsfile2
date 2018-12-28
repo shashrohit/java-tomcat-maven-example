@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Build Servlet Project') {
+            steps {
+                /*For windows machine */
+               echo  'Hello World'
+
+                /*For Mac & Linux machine */
+               // sh  'mvn clean package'
+            }
+
+        }
+    }
+}

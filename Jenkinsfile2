@@ -11,5 +11,15 @@ pipeline {
             }
 
         }
+        stage ('Deploy Servlet Project') {
+            steps {
+                /*For windows machine */
+               echo  'Hello World'
+
+                /*For Mac & Linux machine */
+               // sh  'Deploy package'
+            }
+
+        }
     }
 }
